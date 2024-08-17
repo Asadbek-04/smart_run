@@ -13,6 +13,27 @@
             width: 270px;
         }
     }
+
+    .title {
+        &_left {
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+
+    .consultation {
+        &__descr {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: none;
+            text-align: center;
+        }
+    }
+
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
 }
 
 @media (max-width: 576px) {
